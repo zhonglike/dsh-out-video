@@ -1,6 +1,6 @@
 {
   "name": "dsh-out-video",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Video generation plugin for DeepSeek Harness: wan-series models via the dashscope async API, exposed as MCP tools (generate_video / check_video_task)",
   "type": "module",
   "private": true,
