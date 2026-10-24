@@ -1,0 +1,12 @@
+# 注册 dsh 的 MCP 客户端条目，把本目录的 MCP server（stdio）接入 agent 工具面板。
+# 与桌面 profile 里 windows-mcp / snowluma 等条目同一挂法。
+- insert:
+    - id: mcp-video-gen
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: video-gen
+        transport: stdio
+        command: 'D:\nodjs\node.exe'
+        args:
+          - 'C:\Users\zxqh\.dsh\plugins\dsh-out-video\mcp-video-gen.mjs'
+        toolCallTimeoutMs: 600000
